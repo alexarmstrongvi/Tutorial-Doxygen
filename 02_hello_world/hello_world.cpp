@@ -27,7 +27,6 @@ using std::string;
 ////////////////////////////////////////////////////////////////////////////////
 void print_msg(string s);
 
-////////////////////////////////////////////////////////////////////////////////
 /// @brief Extended function description
 ///
 /// Everything in this comment block will be considered documentation for the 
@@ -39,7 +38,7 @@ void print_msg(string s);
 ///
 /// @param argc The number of command line arguments
 /// @param argv The command line arguments
-////////////////////////////////////////////////////////////////////////////////
+/// @return status code
 int main(int argc, char* argv[]) {
     // Double backslash comments will be ignored by doxygen
 
