@@ -49,6 +49,7 @@ int main(int argc, char* argv[]) {
 /// @brief Function description: print message to stdout
 /// @param s message to print
 /// @param nonexistentparam doxygen will assume this is a param even if it isn't in the source code
+///        but it will print out a warning
 void print_msg(string s) {
     cout << s << endl;
 }
